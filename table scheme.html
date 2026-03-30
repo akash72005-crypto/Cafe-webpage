@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+   margin: 0;
+   padding: 0;
+}
+.kido{
+    display: flex;
+    /* justify-content: space-around; 
+    justify-content: space-evenly;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+#kidd{
+    list-style: none;
+    display: flex;
+    margin-top:50px;
+}
+#kidd a{
+    margin-right: 50px;
+    text-decoration: none;
+     font-size: 20px;
+}
+#kidd a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.drd{
+    display: none;
+   
+     width: 100px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+
+}
+.drb .drd a{
+    color: white;
+    margin-top: 100px;
+}
+.drb:hover .drd{
+    display: block;
+}
+.drb .drd a:hover{color: bisque;}
+
+.nav2{
+    display: none;
+     width: 180px;
+     padding: 20px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+     /* position: fixed; */
+}
+
+.nav:hover .nav2{
+    display: block;
+    position: fixed;
+}
+
+
+.bar2{
+    display: none;
+     width: 130px;
+     padding: 15px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.bar2 a{
+    color: white;
+}
+.bar:hover .bar2{
+    display: block;
+    position: fixed;
+}
+
+    #cle {
+        background-image: url(/asset/copy-space-coffee-beans.jpg);
+        text-align: center;
+        padding: 100px;
+        margin-top: 40px;
+    }
+
+    .eng {
+        font-family: 'Architects Daughter';
+        text-align: center;
+        padding-top: 100px;
+    }
+    .imga{
+        justify-content: space-evenly;
+        display: flex;
+        margin-top: 50px;
+    }
+    .git{
+        justify-content: space-evenly;
+        display: flex;
+    }
+    .hub{
+        justify-content: space-evenly;
+        display: flex;
+    }
+   
+    
+    .imga:hover{
+        color: orange;
+        cursor: pointer;
+        transition: 1000ms;
+    }
+.wait{
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.bug{
+    display: flex;
+    margin-left: 600px;
+}
+.hi{
+    color: orange;
+    animation-delay: 5sec;
+}
+.aa:hover{
+    color: rgb(243, 133, 7);
+    margin-top: 100px;
+}
+ .drb1{
+    color:rgb(32, 32, 62);
+}
+.aa{
+    color: white;
+     margin: 10px 0;
+}
+.hi{
+     
+ animation: zoomInOut 3s ease-in-out;
+}
+
+    @keyframes zoomInOut {
+      0% {
+        transform: scale(0.9);
+        opacity: 0.5;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+
+</style>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="kido">
+        <img src="/asset/logo.png   ">
+        <ul id="kidd">
+            <li><a id="dd" href="/coffee.html">Home</a>
+            <li class="drb">
+                <a class="drb1" href="">Resvarstion</a>
+                <div class="drd">
+                    <a class="aa" href="/coffeeclender.html" >Calender</a>
+                    <a class="aa" href="/table scheme.html">Tablescheme</a>
+                    
+                </div>
+                
+            </li>
+            <li><a href="menu.html">Menu</a></li>
+
+            <li class="nav">
+                <a href="">Blog</a>
+                <div class="nav2">
+                    <a class="aa" href="/css/blog.html" style="margin: 10px 0;">Blogwithsidebar</a>
+                    <a class="aa" href="/css/blog without.html"  style="margin: 10px 0;">Blogwithoutsidebar</a>
+                   <a class="aa" href="/css/masonry.html"  style="margin: 10px 0;">Blogmasonry</a>
+                    <a  class="aa"href=""  style="margin: 10px 0;">postformats</a>
+
+                </div>
+            </li>
+
+            
+            <li class="bar"><a href="">Feautres</a>
+                <div class="bar2">
+                    <ul type="none">
+                        <li><a class="aa" href="">Tools</a></li>
+                        <li><a class="aa" href="/css/about.html">About us</a></li>
+                        <li> <a class="aa"href="">Our team</a></li>
+                        <li><a class="aa"href="">Teammember</a></li>
+                        <li> <a class="aa"href="">Ourclients</a></li>
+                        <li><a class="aa" href="">Testimonials</a></li>
+                        <li><a class="aa" href="">Typography</a></li>
+                        <li><a class="aa" href="">Shortcodes</a></li>
+                        <li> <a  class="aa"href="">Gallery</a></li>
+                    </ul>
+
+                </div>
+
+            </li>
+            <li><a href="/css/shop.html">Shop</a></li>
+            <li><a href="/css/contact.html">Contact</a></li>
+            <li><a href=""><i class="fa-solid fa-cart-shopping">your cart2</i></a></li>
+        </ul>
+    </div>
+
+    <div id="cle">
+        <h1 style="letter-spacing: 2px;">TABLE SCHEME</h1>
+        <h5 style="margin-top: 5px;">Home / Tables Scheme</h5>
+    </div>
+    <div class="eng">
+        <h1>TABLE RESVARSTION</h1>
+        <p style="margin-top: 30px; font-size: 15px;">Reserve the best table using our сafe’s table scheme. Simply select the table, confirm your reservation, and
+            get ready for an <br>unforgettable coffee experience. A couple of clicks and your table is waiting!</p>
+    </div>
+    <div class="hi">
+    <div class="imga">
+        <img src="/asset/table-1-2-hover.webp">
+        <img src="/asset/table-bar-2-hover.webp">
+        <img src="/asset/table-3-1-hover.webp">
+    </div>
+    <div class="git">
+        <img src="/asset/table-2-1-hover.webp">
+        <img src="/asset/table-4-1-hover.webp">
+        <img src="/asset/table-8-hover.webp">
+    </div>
+    <div class="hub">
+        <img src="/asset/table-3-1-hover.webp">
+        <img src="/asset/table-5-1-hover.webp">
+        <img src="/asset/table-7-1-hover.webp">
+        <img src="/asset/table-9-2-hover.webp">
+    </div>
+    </div>
+
+     <div class="wait">
+        <img src="/asset/logo_footer.webp" style="padding-top:30px;"> <br> <br>
+
+        <p style=" color: white;">
+            Morbi sed justo felis. Phasellus condimentum ornare maximus. Nulla convallis tortor <br>pellentesque tortor
+            vulputate, eget bibendum nibh interdum.
+        </p><br><br>
+        <div class="bug">
+            <p style="color: white; margin-left: -30px;">
+                Chicago, IL 60606 <br>
+                123, New Lenox
+            </p>
+            <p style="color: white; margin-left: 30px;">Phone: 888-456-7890 <br>
+                Fax: 889-098-7654</p>
+        </div>
+        
+        <i class="fa-brands fa-twitter" style="color: aqua; padding: 20px; margin-left: -50px; margin-top: 20px;"></i> 
+        <i class="fa-brands fa-facebook" style="color: aqua; padding: 20px;"></i>
+        <i class="fa-brands fa-instagram" style="color: aqua; padding: 20px;"></i>
+        <p style="color: white; margin-top: 50px;">
+            ThemeRex © 2017 All Rights Reserved Terms of Use and Privacy Policy
+        </p><br><br><br><br>
+
+</body>
+
+</html>

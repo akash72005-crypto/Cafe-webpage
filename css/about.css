@@ -1,0 +1,178 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.kido{
+    display: flex;
+    /* justify-content: space-around; 
+    justify-content: space-evenly;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+#kidd{
+    list-style: none;
+    display: flex;
+    margin-top:50px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+   
+    color: black;
+}
+.drd{
+    display: none;
+    
+     width: 100px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+
+}
+.drd a{
+    color: white;
+}
+.drb:hover .drd{
+    display: block;
+}
+.nav2{
+      display: none;
+     width: 150px;
+     padding: 20px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.nav2 a{
+    color: white;
+
+}
+.nav:hover .nav2{
+    display: block;
+    position: fixed;
+}
+.bar2{
+    display: none;
+     width: 130px;
+     padding: 15px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.bar2 a{
+    color: white;
+}
+.bar:hover .bar2{
+    display: block;
+    position: fixed
+}
+
+#cle{
+    background-image: url(/asset/copy-space-coffee-beans.jpg);
+    text-align: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+
+.boxx{
+    text-align: center;
+    margin-top: 70px;
+    border: 1px solid lightgreen;
+    padding:20px 50px 20px 50px;
+    margin-left: 650px;
+    margin-right: 650px;
+    font-size: 15px;
+ outline-style: double;
+ color:  rgb(43, 197, 43);
+    cursor: pointer;
+}
+.aa:hover{
+    color: rgb(243, 133, 7);
+    margin-top: 100px;
+}
+ .drb1{
+    color:rgb(32, 32, 62);
+}
+.aa{
+    color: white;
+     margin: 10px 0;
+}
+
+ .boxx:hover{
+        text-decoration: double;
+        color: black;
+        
+    }
+
+.con{
+    background-image: url(/asset/copy-space-coffee-beans.jpg);
+    padding-left: 250px;
+    padding-top: 120px;
+    margin-top: 20px;
+    
+}
+.bc{
+       font-family: 'Bilbo Swash Caps';
+       font-size: 80px;
+}
+.bc1{
+    font-size: 100px;
+     font-family: 'Audiowide';
+}
+#pic{
+    display: flex;
+}
+
+.par{
+    display: flex;
+}
+#pic{
+    padding-top: 150px;
+}
+.par2{
+    display: flex;
+}
+.base{
+    text-align: center; margin-top: 100px; text-transform: capitalize;
+    letter-spacing: 6px;
+}
+.bike{
+ 
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 100px;
+    text-align: center;
+    
+
+  
+}
+.bike h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.bike h1{
+    color: green;
+    font-size: 50px;
+}
+.wait{
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.bug{
+    display: flex;
+    margin-left: 600px;
+}

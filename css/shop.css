@@ -1,0 +1,211 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.kido{
+    display: flex;
+    /* justify-content: space-around; 
+    justify-content: space-evenly;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+#kidd{
+    list-style: none;
+    display: flex;
+    margin-top:50px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+
+    color: black;
+}
+.drd{
+    display: none;
+    
+     width: 100px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+
+}
+.aa:hover{
+    color: rgb(243, 133, 7);
+    margin-top: 100px;
+}
+ .drb1{
+    color:rgb(32, 32, 62);
+}
+.aa{
+    color: white;
+     margin: 10px 0;
+}
+.drd a{
+    color: white;
+}
+.drb:hover .drd{
+    display: block;
+}
+.nav2{
+      display: none;
+     width: 150px;
+     padding: 20px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.nav2 a{
+    color: white;
+
+}
+.nav:hover .nav2{
+    display: block;
+    position: fixed;
+}
+.bar2{
+    display: none;
+     width: 130px;
+     padding: 15px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.bar2 a{
+    color: white;
+}
+.bar:hover .bar2{
+    display: block;
+    position: fixed
+}
+
+#cle{
+    background-image: url(/asset/copy-space-coffee-beans.jpg);
+    text-align: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+.doc{
+    display: flex;
+}
+.iph{
+   margin-top: 40px;
+   text-align: center;
+}
+.iph:hover{
+    cursor: pointer;
+}
+.iph:hover h5{
+    color: black;
+}
+.rate{
+    list-style: none;
+    text-align: left;
+    margin-top: 80px;
+}
+.clash{
+    display: flex;
+}
+.woow{
+    display: flex;
+}
+.bot{
+    
+    outline-style: double;
+    margin: 100px;
+    margin-top: 20px;
+    outline-color: rgb(43, 197, 43);
+    color:  rgb(43, 197, 43);
+    cursor: pointer;
+    text-align: center;
+    padding: 23px 30px;
+}
+.jee{
+    padding-left: 600px;
+    gap: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.boo{
+   padding-left: 600px;
+   margin-top: 200px;
+}
+.email-input {
+  width: 300px;
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+.email-input::placeholder {
+  color: #aaa;
+}
+.email-input:focus {
+  border-color: #999;
+}
+.subscribe-btn {
+  background-color: #fff;
+  color: #00a651;
+  border: 2px solid #00a651;
+  padding: 12px 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.subscribe-btn:hover {
+  background-color: #00a651;
+  color: #fff;
+}
+.subscribe-btn {
+  outline: none;
+  border-radius: 3px;
+}
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+  border-color: #00b894;
+  color: #00b894;
+}
+
+.pagination a.active {
+  border: 2px solid #00b894;
+  color: #00b894;
+  font-weight: bold;
+}
+
+.wait{
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.bug{
+    display: flex;
+    margin-left: 600px;
+}

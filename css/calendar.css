@@ -1,0 +1,194 @@
+ *{
+   margin: 0;
+   padding: 0;
+}
+.kido{
+    display: flex;
+    /* justify-content: space-around; 
+    justify-content: space-evenly;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+#kidd{
+    list-style: none;
+    display: flex;
+    margin-top:50px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+   
+    color: black;
+}
+.drd{
+    display: none;
+    
+     width: 100px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+
+}
+.drd a{
+    color: white;
+}
+.aa:hover{
+    color: rgb(243, 133, 7);
+    margin-top: 100px;
+}
+ .drb1{
+    color:rgb(32, 32, 62);
+}
+.aa{
+    color: white;
+     margin: 10px 0;
+}
+.drb:hover .drd{
+    display: block;
+}
+.nav2{
+      display: none;
+     width: 150px;
+     padding: 20px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.nav2 a{
+    color: white;
+
+}
+.nav:hover .nav2{
+    display: block;
+    position: fixed
+}
+.bar2{
+    display: none;
+     width: 130px;
+     padding: 15px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.bar2 a{
+    color: white;
+}
+.bar:hover .bar2{
+    display: block;
+    position: fixed
+}
+
+
+
+
+#cle{
+    background-image: url(/asset/copy-space-coffee-beans.jpg);
+    text-align: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+.eng{
+    font-family: 'Architects Daughter';
+    text-align: center;
+    padding-top: 100px;
+}
+.tab{
+    text-align: center;
+    margin-left: 150px;
+    
+    border-collapse: collapse;
+    width: 80%;
+    height: 100px;
+    margin-top: 40px;
+   
+    
+}
+
+td {
+  border: 1px solid #dddddd;
+  padding: 60px 40px ;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(186, 185, 185);
+
+  z-index: -1;
+}
+table,td,th{
+     border: 2px solid  rgb(234, 228, 217);
+    border-spacing: 100px;
+}
+.row1 tr {
+        background-color: rgb(234, 228, 217);
+        width: 30px;
+}
+.row1 tr th{
+    padding: 10px;
+}
+
+
+td span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    color: rgb(186, 185, 185);
+  }
+td:hover{
+    cursor: no-drop;
+}
+
+   td:hover span {
+    background-color: rgb(209, 215, 209);
+    color: white;
+    
+  }
+
+.sec td{
+    cursor: pointer;
+}
+
+.sec td:hover span{
+    background-color: green;
+    color: white;
+}
+.off{
+    background-color: lightblue;
+    color: blue;
+}
+.off:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+ .wait{
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.bug{
+    display: flex;
+    margin-left: 600px;
+}
+    
+    

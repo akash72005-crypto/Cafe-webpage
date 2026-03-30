@@ -1,0 +1,335 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.kido{
+    display: flex;
+    /* justify-content: space-around; 
+    justify-content: space-evenly;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+#kidd{
+    list-style: none;
+    display: flex;
+    margin-top:50px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+    
+    color: black;
+}
+.drd{
+    display: none;
+    
+     width: 100px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+
+}
+.drd a{
+    color: white;
+}
+.drb:hover .drd{
+    display: block;
+}
+.nav2{
+      display: none;
+     width: 150px;
+     padding: 20px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.aa:hover{
+    color: rgb(243, 133, 7);
+    margin-top: 100px;
+}
+ .drb1{
+    color:rgb(32, 32, 62);
+}
+.aa{
+    color: white;
+     margin: 10px 0;
+}
+.nav2 a{
+    color: white;
+
+}
+.nav:hover .nav2{
+    display: block;
+    position: fixed;
+}
+.bar2{
+    display: none;
+     width: 130px;
+     padding: 15px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.bar2 a{
+    color: white;
+}
+.bar:hover .bar2{
+    display: block;
+    position: fixed
+}
+#cle{
+    background-image: url(/asset/copy-space-coffee-beans.jpg);
+    text-align: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+
+.side{
+    margin: 150px 180px 50px;
+    height: 400px;
+}
+
+.himg{
+    width: 100px;
+    color: aliceblue;
+}
+.himg:hover{
+    transform: translateY(-50px);
+    
+}
+.middle{
+    position: absolute;
+    transform: translate(100px, -230px);
+    display: none;
+}
+.container:hover .middle{
+    display: block;
+}
+.bar{
+    display: flex;
+}
+.dis{
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 150px;
+}
+.hi{
+    color: orange;
+    padding-top:10px;
+}
+.hi:hover{
+    color: rgb(113, 18, 18);
+    cursor: pointer;
+   
+}
+.hii{
+    padding-top: 10px;
+}
+
+.hii:hover{
+    color: lightgreen;
+}
+#mk{
+    margin-left: 2px;
+}
+.ki{
+    color: rgb(145, 146, 147);
+    margin-top: 20px ;
+    margin-left: 170px;
+}
+.read-more-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left:170px ;
+    margin-top: 30px;
+
+    /* Removes default button styles */
+    outline: none;
+}
+
+.read-more-btn:hover {
+    background-color: #f0fff0; /* very light green on hover */
+}
+.stats {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 18px;
+    color: green;
+    position: relative;
+}
+
+/* Tooltip base */
+.stats div {
+    position: relative;
+    cursor: default;
+}
+
+/* Tooltip styling */
+.stats div:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 14px;
+    z-index: 10;
+}
+
+/* Tooltip small arrow */
+.stats div:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+.di{
+    margin-left: 850px;
+}
+.social-container h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.social-container hr {
+  width: 60px;
+  margin: 20px auto 20px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding-left: 80px;
+}
+
+.social-icons a {
+  color: #ccc; /* light gray for faded look */
+  font-size: 28px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #000; /* dark color when hovered */
+  transform: scale(1.2);
+}
+.mj{
+    display: flex;
+}
+
+
+.subscribe-btn {
+  background-color: #fff;
+  color: #00a651;
+  border: 2px solid #00a651;
+  padding: 12px 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+
+   
+.subscribe-btn:hover {
+  background-color: #00a651;
+  color: #fff;
+}
+.subscribe-btn {
+  outline: none;
+  border-radius: 3px;
+}
+.woow{
+    display: flex;
+}
+.rate{
+    list-style: none;
+    text-align: left;
+    margin-top: 80px;
+}
+.clash{
+    display: flex;
+}
+.spi{
+    margin-top: 130px;
+}
+.bat:hover{
+    color: lightgreen;
+    cursor: pointer;
+}
+.spi,p{
+    color: gold;
+}
+.spi,p:hover{
+    color: rgb(45, 44, 44);
+}
+.va{
+    display: flex;
+}
+.love{
+    margin-top: 130px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+  border-color: #00b894;
+  color: #00b894;
+}
+
+.pagination a.active {
+  border: 2px solid #00b894;
+  color: #00b894;
+  font-weight: bold;
+}
+
+.wait{
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.bug{
+    display: flex;
+    margin-left: 600px;
+}
+.oii{
+    display: flex;
+    align-items: center;
+    
+}

@@ -1,0 +1,133 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.kido{
+    display: flex;
+    /* justify-content: space-around; 
+    justify-content: space-evenly;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: white;
+}
+#kidd{
+    list-style: none;
+    display: flex;
+    margin-top:50px;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+  
+    color: black;
+}
+.drd{
+    display: none;
+    
+     width: 100px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+
+}
+.drd a{
+    color: white;
+}
+.drb:hover .drd{
+    display: block;
+}
+.nav2{
+      display: none;
+     width: 150px;
+     padding: 20px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.nav2 a{
+    color: white;
+
+}
+.nav:hover .nav2{
+    display: block;
+    position: fixed;
+}
+.bar2{
+    display: none;
+     width: 130px;
+     padding: 15px;
+     margin-top: 2px;
+     background-color: black;
+     color: white;
+     z-index: 1;
+}
+.bar2 a{
+    color: white;
+}
+.bar:hover .bar2{
+    display: block;
+    position: fixed
+}
+
+
+#cle{
+    background-image: url(/asset/copy-space-coffee-beans.jpg);
+    text-align: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+
+.cl{
+    margin: 100px 250px 100px 220px;
+    width: 300px;
+  height: 200px;
+}
+
+.read-more-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left:700px ;
+    margin-top: 30px;
+    text-align: center;
+
+    /* Removes default button styles */
+    outline: none;
+}
+.read-more-btn:hover {
+    background-color: #f0fff0; /* very light green on hover */
+}
+
+
+.wait{
+    background-color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+.bug{
+    display: flex;
+    margin-left: 600px;
+}
+.aa:hover{
+    color: rgb(243, 133, 7);
+    margin-top: 100px;
+}
+ .drb1{
+    color:rgb(32, 32, 62);
+}
+.aa{
+    color: white;
+     margin: 10px 0;
+}
